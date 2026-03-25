@@ -1,7 +1,7 @@
 # A high-resolution unified global onshore and offshore wind resources and power potential dataset
 
 
-**Changqing Xu**<sup>a,b</sup>, **Tianyu Jia**<sup>a,b,&#42;</sup>, **Jianchuan Qi**<sup>c,&#42;</sup>, **Peng Wang**<sup>d,e</sup>, **Xi Chen**<sup>a</sup>, **Siqi Wang**<sup>a</sup>, **Yunzhi Tang**<sup>a</sup>, **Fangyuan Lu**<sup>f</sup>, **Yuqiao Lan**<sup>a,b</sup>, **Jing Guo**<sup>g</sup>, **Bo Wang**<sup>b,h</sup>, **Bin Zhang**<sup>b,h</sup>, **Chuke Chen**<sup>c</sup>, **Nan Li**<sup>i</sup>, **Ming Xu**<sup>i,&#42;</sup>, **Zhaohua Wang**<sup>a,b,&#42;</sup>
+**Changqing Xu**<sup>a,b</sup>, **Tianyu Jia**<sup>a,b,&#42;</sup>, **Jianchuan Qi**<sup>c,&#42;</sup>, **Peng Wang**<sup>d,e,&#42;</sup>, **Xi Chen**<sup>a</sup>, **Siqi Wang**<sup>a</sup>, **Yunzhi Tang**<sup>a</sup>, **Fangyuan Lu**<sup>f</sup>, **Yuqiao Lan**<sup>a,b</sup>, **Jing Guo**<sup>g</sup>, **Bo Wang**<sup>b,h</sup>, **Bin Zhang**<sup>b,h</sup>, **Chuke Chen**<sup>c</sup>, **Nan Li**<sup>i</sup>, **Ming Xu**<sup>i</sup>, **Zhaohua Wang**<sup>a,b,&#42;</sup>
 
 <br>
 
