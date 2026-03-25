@@ -1,6 +1,7 @@
-# High-resolution global onshore and offshore wind energy potential dataset
+# A high-resolution unified global onshore and offshore wind resources and power potential dataset
 
-**Changqing Xu**<sup>a,b</sup>, **Tianyu Jia**<sup>a,b,&#42;</sup>, **Jianchuan Qi**<sup>c,&#42;</sup>, **Peng Wang**<sup>d,e</sup>, **Xi Chen**<sup>a</sup>, **Siqi Wang**<sup>a</sup>, **Yunzhi Tang**<sup>a</sup>, **Yuqiao Lan**<sup>a,b</sup>, **Jing Guo**<sup>f</sup>, **Bo Wang**<sup>b,g</sup>, **Bin Zhang**<sup>b,g</sup>, **Chuke Chen**<sup>c</sup>, **Nan Li**<sup>h</sup>, **Ming Xu**<sup>h,&#42;</sup>, **Zhaohua Wang**<sup>a,b,&#42;</sup>
+
+**Changqing Xu**<sup>a,b</sup>, **Tianyu Jia**<sup>a,b,&#42;</sup>, **Jianchuan Qi**<sup>c,&#42;</sup>, **Peng Wang**<sup>d,e</sup>, **Xi Chen**<sup>a</sup>, **Siqi Wang**<sup>a</sup>, **Yunzhi Tang**<sup>a</sup>, **Fangyuan Lu**<sup>f</sup>, **Yuqiao Lan**<sup>a,b</sup>, **Jing Guo**<sup>g</sup>, **Bo Wang**<sup>b,h</sup>, **Bin Zhang**<sup>b,h</sup>, **Chuke Chen**<sup>c</sup>, **Nan Li**<sup>i</sup>, **Ming Xu**<sup>i,&#42;</sup>, **Zhaohua Wang**<sup>a,b,&#42;</sup>
 
 <br>
 
@@ -8,11 +9,12 @@
 <sup>a</sup> School of Economics, Beijing Institute of Technology, Beijing 100081, China.<br>
 <sup>b</sup> Digital Economy and Policy Intelligentization Key Laboratory of Ministry of Industry and Information Technology, Beijing 100081, China.<br>
 <sup>c</sup> School of Environment, Tsinghua University, Beijing 100084, China.<br>
-<sup>d</sup> Key Lab of Urban Environment and Health, Institute of Urban Environment, Chinese Academy of Sciences, Xiamen 361021, China.<br>
+<sup>d</sup> State Key Laboratory of Regional and Urban Ecology, Institute of Urban Environment, Chinese Academy of Sciences, Xiamen 361021, China.<br>
 <sup>e</sup> University of Chinese Academy of Sciences, Beijing 100049, China.<br>
-<sup>f</sup> College of Management Science and Engineering, Beijing Information Science & Technology University, Beijing, 102206, P.R. China.<br>
-<sup>g</sup> School of Management, Beijing Institute of Technology, Beijing 100081, China.<br>
-<sup>h</sup> State Key Laboratory of Iron and Steel Industry Environmental Protection, School of Environment, Tsinghua University, Beijing 100084, China.
+<sup>f</sup> School of Geography and Ocean Science, Nanjing University, Nanjing, China.<br>
+<sup>g</sup> College of Management Science and Engineering, Beijing Information Science & Technology University, Beijing, 102206, P.R. China.<br>
+<sup>h</sup> School of Management, Beijing Institute of Technology, Beijing 100081, China.<br>
+<sup>i</sup> State Key Laboratory of Iron and Steel Industry Environmental Protection, School of Environment, Tsinghua University, Beijing 100084, China.
 </small>
 
 <br>
@@ -20,7 +22,7 @@
 
 
 ## Abstract
-This repository contains the source code and processing pipeline for the manuscript "High-resolution global onshore and offshore wind energy potential dataset". We developed a harmonized geospatial assessment framework to estimate hourly wind power output, capacity factors (CF), and aggregated energy potentials—including Capacity Density (CD), Energy Density (ED), Technical Potential (TP), and Realistic Potential (RP)—for both onshore and offshore environments globally. Multi-variate validation methods were adopted to demonstrate the robustness of the dataset. The provided scripts allow for the complete reproduction of the global wind energy assessment and spatial validation presented in the study.
+This repository contains the source code and processing pipeline for the manuscript "A high-resolution unified global onshore and offshore wind resources and power potential dataset". We developed a harmonized geospatial assessment framework to estimate hourly wind power output, capacity factors (CF), and aggregated energy potentials—including Capacity Density (CD), Energy Density (ED), Technical Potential (TP), and Realistic Potential (RP)—for both onshore and offshore environments globally. Multi-variate validation methods were adopted to demonstrate the robustness of the dataset. The provided scripts allow for the complete reproduction of the global wind energy assessment and spatial validation presented in the study.
 
 ## Project Data & Availability
 Due to the size of high-resolution hourly reanalysis data, the raw input files are not hosted in this repository. Users must obtain the raw data from the official sources listed in the table below.
