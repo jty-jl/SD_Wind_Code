@@ -1,7 +1,7 @@
 # A high-resolution unified global onshore and offshore wind resources and power potential dataset
 
 
-**Changqing Xu**<sup>a,b</sup>, **Tianyu Jia**<sup>a,b,&#42;</sup>, **Jianchuan Qi**<sup>c,&#42;</sup>, **Peng Wang**<sup>d,e,&#42;</sup>, **Xi Chen**<sup>a</sup>, **Siqi Wang**<sup>a</sup>, **Yunzhi Tang**<sup>a</sup>, **Fangyuan Lu**<sup>f</sup>, **Yuqiao Lan**<sup>a,b</sup>, **Jing Guo**<sup>g</sup>, **Bo Wang**<sup>b,h</sup>, **Bin Zhang**<sup>b,h</sup>, **Chuke Chen**<sup>c</sup>, **Nan Li**<sup>i</sup>, **Ming Xu**<sup>i</sup>, **Zhaohua Wang**<sup>a,b,&#42;</sup>
+**Changqing Xu**<sup>a,b</sup>, **Tianyu Jia**<sup>a,b,&#42;</sup>, **Jianchuan Qi**<sup>c,&#42;</sup>, **Peng Wang**<sup>d,e,&#42;</sup>, **Xi Chen**<sup>a</sup>, **Siqi Wang**<sup>a</sup>, **Yunzhi Tang**<sup>a</sup>, **Fangyuan Lu**<sup>f</sup>, **Yuqiao Lan**<sup>a,b</sup>, **Bin Zhang**<sup>b,g</sup>, **Bo Wang**<sup>b,g</sup>, **Jing Guo**<sup>h</sup>, **Chuke Chen**<sup>c</sup>, **Nan Li**<sup>i</sup>, **Ming Xu**<sup>i</sup>, **Zhaohua Wang**<sup>a,b,&#42;</sup>
 
 <br>
 
@@ -12,8 +12,8 @@
 <sup>d</sup> State Key Laboratory of Regional and Urban Ecology, Institute of Urban Environment, Chinese Academy of Sciences, Xiamen 361021, China.<br>
 <sup>e</sup> University of Chinese Academy of Sciences, Beijing 100049, China.<br>
 <sup>f</sup> School of Geography and Ocean Science, Nanjing University, Nanjing, China.<br>
-<sup>g</sup> College of Management Science and Engineering, Beijing Information Science & Technology University, Beijing, 102206, P.R. China.<br>
-<sup>h</sup> School of Management, Beijing Institute of Technology, Beijing 100081, China.<br>
+<sup>g</sup> School of Management, Beijing Institute of Technology, Beijing 100081, China.<br>
+<sup>h</sup> College of Management Science and Engineering, Beijing Information Science & Technology University, Beijing, 102206, P.R. China.<br>
 <sup>i</sup> State Key Laboratory of Iron and Steel Industry Environmental Protection, School of Environment, Tsinghua University, Beijing 100084, China.
 </small>
 
