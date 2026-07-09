@@ -38,11 +38,11 @@ Due to the size of high-resolution hourly reanalysis data, the raw input files a
 | Dataset | Source / Link | Variables Used |
 | :--- | :--- | :--- |
 | **ERA5 Reanalysis** | [ECMWF CDS](https://cds.climate.copernicus.eu/datasets) | `100u`, `100v` (Wind)<br>`sp`, `t2m` (Density) <br> `Land-Sea Mask (LSM)` <br> `Sea ice cover`|
-| **MODIS MCD12Q1(v6.1)** | [Land Use and Land Cover](https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061) | Excluded: water (0), evergreen needleleaf forests (1), evergreen broadleaf forests (2), deciduous needleleaf forests (3), deciduous broadleaf forests (4), mixed forests (5), permanent wetlands (11), urban and built-up (13), snow and ice (15)  <br> Retained: closed shrublands (6), open shrublands (7), woody savannas (8), savannas (9), grasslands (10), croplands (12), cropland/natural vegetation mosaics (14), barren or sparsely vegetated (16) |
-| **EEZ** | [Exclusive Economic Zones](https://www.marineregions.org/) | Assessment restricted to maritime areas within national EEZs (up to 200 nautical miles) |
+| **MODIS MCD12C1(v061)** | [Land Use and Land Cover](https://www.earthdata.nasa.gov/data/catalog/lpcloud-mcd12c1-061) | Excluded: water (0), evergreen needleleaf forests (1), evergreen broadleaf forests (2), deciduous needleleaf forests (3), deciduous broadleaf forests (4), mixed forests (5), permanent wetlands (11), urban and built-up (13), snow and ice (15)  <br> Retained: closed shrublands (6), open shrublands (7), woody savannas (8), savannas (9), grasslands (10), croplands (12), cropland/natural vegetation mosaics (14), barren or sparsely vegetated (16) |
+| **EEZ v12** | [Exclusive Economic Zones](https://www.marineregions.org/) | Assessment restricted to maritime areas within national EEZs (up to 200 nautical miles) |
 | **WDPA** | [Protected Areas](https://www.protectedplanet.net/en/thematic-areas/wdpa%20) | Exclusion of all protected areas with designated or established status in the following IUCN categories: Strict Nature Reserve, Wilderness Area, National Park, Natural Monument/Feature, Habitat/Species Management Area, Protected Landscape/Seascape, Protected Area with Sustainable Resource Use, Indigenous and Community Conserved Area, Drinking-Water Protection Zones, Permanent No-Take Fisheries Zones, Military Exclusion Areas, Long-Term Private Conservation Easements |
 | **GEBCO Grid** | [GEBCO](https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2025-grid) | Slope / Elevation / Depth / Distance |
-| **Global Wind Atlas** | [GWA 3.0](https://globalwindatlas.info/) | Spatial distribution validation |
+| **Global Wind Atlas** | [GWA 4.0]([https://globalwindatlas.info/](https://data.dtu.dk/articles/dataset/Global_Wind_Atlas_4/28955267) | Spatial distribution validation |
 | **ESTON-E** | [European Network of Transmission System Operators for Electricity](https://transparency.entsoe.eu/) | High-frequency time series validation |
 
 
