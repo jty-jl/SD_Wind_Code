@@ -19,14 +19,20 @@
 
 <br>
 <small>* Corresponding authors.</small><br>
-<small>* email: 3120246164@bit.edu.cn</small>
+<small>* Email: 3120246164@bit.edu.cn</small>
 
 
 ## Abstract
-This repository contains the source code and processing pipeline for the manuscript "A high-resolution unified global onshore and offshore wind resources and power potential dataset". We developed a harmonized geospatial assessment framework to estimate hourly wind power output, capacity factors (CF), and aggregated energy potentials—including Capacity Density (CD), Energy Density (ED), Technical Potential (TP), and Realistic Potential (RP)—for both onshore and offshore environments globally. Multi-variate validation methods were adopted to demonstrate the robustness of the dataset. The provided scripts allow for the complete reproduction of the global wind energy assessment and spatial validation presented in the study.
+
+This repository provides the source code and processing workflow for the manuscript "A global gridded dataset of unified onshore and offshore wind resources and power potential". The code implements a globally consistent framework for assessing onshore and offshore wind resources from 1980 to 2025 using ERA5 atmospheric reanalysis data and harmonized geospatial screening criteria. It supports the generation of hourly capacity factors (CF), capacity density (CD), energy density (ED), technical potential (TP), and developable potential (DP) products at 0.25° spatial resolution.
+
+The workflow integrates wind-speed extrapolation, air-density correction, turbine power-curve conversion, layout-dependent capacity density assumptions, wake-related losses, and additional system efficiency factors. It also applies spatial constraints including land-cover suitability, protected areas, terrain slope, exclusive economic zones, water depth, offshore distance, and sea-ice conditions. Scenario outputs are provided for three turbine spacing configurations and three developable area ratios, enabling uncertainty analysis across resource, technical, and deployment assumptions.
+
 
 ## Project Data & Availability
 Due to the size of high-resolution hourly reanalysis data, the raw input files are not hosted in this repository. Users must obtain the raw data from the official sources listed in the table below.
+
+
 ### Data Sources
 
 | Dataset | Source / Link | Variables Used |
@@ -38,6 +44,7 @@ Due to the size of high-resolution hourly reanalysis data, the raw input files a
 | **GEBCO Grid** | [GEBCO](https://www.gebco.net/data-products-gridded-bathymetry-data/gebco2025-grid) | Slope / Elevation / Depth / Distance |
 | **Global Wind Atlas** | [GWA 3.0](https://globalwindatlas.info/) | Spatial distribution validation |
 | **ESTON-E** | [European Network of Transmission System Operators for Electricity](https://transparency.entsoe.eu/) | High-frequency time series validation |
+
 
 ## Directory Structure
 To ensure the scripts run successfully, please organize your local data directory as follows (using relative paths):
@@ -62,23 +69,26 @@ To ensure the scripts run successfully, please organize your local data director
     │   ├── wind_rho/          # Processed V100 & Rho
     │   ├── Pwind/
     │   ├── CF/
-    │   └── Potential/         # CD / ED / TP / RP
+    │   └── Potential/         # CD / ED / TP / DP
     ├── offshore/              # [Offshore Branch]
     │   ├── wind_rho/          # Processed V100 & Rho
     │   ├── Pwind/
     │   ├── CF/
-    │   └── Potential/         # CD / ED / TP / RP
+    │   └── Potential/         # CD / ED / TP / DP
     └── Validation/            # GWA / ESTON-E / Other literatures
 ```
 
+
 ## Reproduce My Work
-All code used to create, process, and validate the data in this publication can be reproduced using the provided Python scripts.
+All code used to create and process the data in this publication can be reproduced using the provided Python scripts.
+
 
 ### Prerequisites
 These scripts require Python 3.8+. You can install the necessary dependencies (including cdsapi for data download) using pip:
 ```text
 pip install numpy xarray pandas netCDF4 scipy matplotlib cartopy rioxarray cdsapi
 ```
+
 ### ERA5 API Configuration
 To run the download scripts in Phase 1, you must configure the Climate Data Store (CDS) API client:
 1. Register: Create an account at the [Copernicus Climate Data Store](https://cds.climate.copernicus.eu).
